@@ -1,0 +1,33 @@
+.user-component {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-component__column {
+  display: flex;
+  align-items: center;
+  margin: var(--horizontal-space) 0;
+  width: 30%;
+}
+.user-component__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 33%;
+}
+.user-component__avatar--sm {
+  width: 30px;
+  height: 30px;
+}
+.user-component__title {
+  margin-left: 10px;
+}
+.user-component__title--lg {
+  font-weight: 700;
+}
+.user-component__title--rg {
+  font-weight: 400;
+}
+.user-component__ex {
+  color: var(--gray);
+  font-size: 12px;
+}
